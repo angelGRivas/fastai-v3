@@ -12,7 +12,7 @@ from starlette.staticfiles import StaticFiles
 export_file_url = 'https://drive.google.com/uc?export=download&id=1JNKqjuYF-GjutgSgUunsve2OHX1UpM6T'
 export_file_name = 'export.pkl'
 
-classes = ['elliptical', 'insteracting', 'spiral']
+classes = ['elliptical', 'interacting', 'spiral']
 path = Path(__file__).parent
 
 app = Starlette()
